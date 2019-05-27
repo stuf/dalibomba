@@ -6,7 +6,7 @@ const output = require('./lib/output');
 const argv =
   require('yargs')
     .version()
-    .env('ETOMUSUME')
+    .env('DALIBOMBA')
     .option('verbose', {
       alias: 'v',
       describe: 'Would you like it noisy, Sir?'
