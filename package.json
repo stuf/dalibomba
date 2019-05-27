@@ -1,0 +1,55 @@
+{
+  "name": "@stuf/dalibomba",
+  "version": "0.1.1",
+  "description": "Scrape chat comments from Twitch VODs.",
+  "private": false,
+  "bin": "index.js",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel lib/ -d dist/ --source-maps",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist/",
+    "lib/"
+  ],
+  "homepage": "https://github.com/stuf/dalibomba#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuf/dalibomba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stuf/dalibomba/issues"
+  },
+  "keywords": [
+    "kefir",
+    "twitch",
+    "vod",
+    "cli"
+  ],
+  "dependencies": {
+    "ansi-escapes": "^4.1.0",
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "infestines": "^0.4.11",
+    "kefir": "^3.8.6",
+    "partial.lenses": "^14.17.0",
+    "ramda": "^0.26.1",
+    "sanctuary": "^2.0.0",
+    "sanctuary-def": "^0.20.0",
+    "sanctuary-type-classes": "^11.0.0",
+    "yargs": "^13.2.4"
+  },
+  "optionalDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/kefir": "^3.8.1",
+    "@types/ramda": "^0.26.8",
+    "@types/yargs": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}

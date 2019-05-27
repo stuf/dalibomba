@@ -1,1 +1,2 @@
-\n# `@stuf/dalibomba`\n\n
+
+# `@stuf/dalibomba`
